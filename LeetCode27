@@ -1,4 +1,4 @@
-class Solution {
+class LeetCode27 {
     public int removeElement(int[] nums, int val) {
         int index = 0;
         for (int k = 0; k < nums.length; k++) {
