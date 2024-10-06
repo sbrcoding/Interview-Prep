@@ -1,0 +1,15 @@
+class LeetCode26 {
+    public int removeDuplicates(int[] nums) {
+        int index = 1;
+        for (int k=1; k < nums.length; k++) {
+            if (nums[k] != nums[k-1]) {
+                nums[index] = nums[k];
+                index++;
+
+
+            }
+
+        }
+        return index;
+    }
+}
